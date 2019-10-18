@@ -1,7 +1,7 @@
-004-ucsm-vlan
-Ansible script to bulk create VLAN range on UCS Manager
-2019.10.18
-*Poom Nupong poomsawas@gmail.com*
+## 004-ucsm-vlan
+Ansible script to bulk create VLAN range on UCS Manager  
+2019.10.18  
+Poom Nupong - poomsawas@gmail.com
 
 ===
 
@@ -18,5 +18,5 @@ Note: recent version of ACI offers UCSM integration and can take care of the dyn
 - run the playbook
 
 ```bash
-# ansible-playbook ucsm-vlancreate.yml
+ansible-playbook ucsm-vlancreate.yml
 ```
