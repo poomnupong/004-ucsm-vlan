@@ -1,0 +1,6 @@
+ucsm:
+  hosts:
+    irvlab-ucs4:
+      ucs_hostname: "<ucsm_address_or_hostname>"
+      ucs_username: "<ucsm_username>"
+      ucs_password: "<ucsm_password>"

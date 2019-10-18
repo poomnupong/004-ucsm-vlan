@@ -1,0 +1,20 @@
+---
+- name: Configure VLAN on UCSM
+  hosts: irvlab-ucs4
+  connection: local
+  gather_facts: no
+
+  vars:
+    VAR_STATE: "present"
+
+  tasks:
+    - name: Create vlans
+      ucs_vlans:
+        hostname: "{{ ucs_hostname }}"
+        username: "{{ ucs_username }}"
+        password: "{{ ucs_password }}"
+        name: "VL{{ item }}"
+        id: "{{ item }}"
+        native: "no"
+        state: "{{ VAR_STATE }}"
+      with_sequence: start="2001" end="2100"

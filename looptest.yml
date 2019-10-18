@@ -1,0 +1,10 @@
+---
+- name: test01
+  hosts: irvlab-ucs4
+  connection: local
+  gather_facts: no
+
+  tasks:
+  - debug:
+      msg: "countdown: {{ item }} seconds."
+    with_sequence: start="10" end="20"
