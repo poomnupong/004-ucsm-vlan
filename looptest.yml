@@ -1,4 +1,11 @@
 ---
+#####################################
+# looptest.yml
+# Simple Ansible script to test loop 
+# 2019.10.19
+# Poom Nupong - poomsawas@gmail.com
+#####################################
+
 - name: test01
   hosts: irvlab-ucs4
   connection: local
