@@ -2,7 +2,6 @@
 Ansible script to bulk create VLAN range on UCS Manager  
 2019.10.18  
 Poom Nupong - poomsawas@gmail.com
-
 ===
 
 ### Overview

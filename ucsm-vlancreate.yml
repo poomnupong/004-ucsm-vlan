@@ -1,4 +1,12 @@
 ---
+#####################################
+# 004-ucsm-vlan
+# ucsm-vlancreate.yml
+#####################################
+# Bulk create VLAN in UCS Manager 
+# 2019.10.19
+# Poom Nupong - poomsawas@gmail.com
+#####################################
 - name: Configure VLAN on UCSM
   hosts: irvlab-ucs4
   connection: local
