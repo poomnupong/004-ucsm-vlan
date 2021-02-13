@@ -25,4 +25,5 @@
         id: "{{ item }}"
         native: "no"
         state: "{{ VAR_STATE }}"
+      # edit VLAN range here
       with_sequence: start="2001" end="2100"
